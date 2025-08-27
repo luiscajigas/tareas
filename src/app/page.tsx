@@ -1,5 +1,6 @@
 export default function Home() {
   return (
+
     <main className="min-h-screen flex justify-center items-center bg-indigo-100">
       <div className="bg-white shadow-xl rounded-xl p-4 w-[400px]">
         {/* Encabezado */}
@@ -10,7 +11,7 @@ export default function Home() {
 
         <h1 className="text-lg font-bold text-gray-900 mb-2">List Tailwind</h1>
 
-        {/* Días */}
+        {/* Día */}
         <div className="grid grid-cols-7 gap-2 text-center text-sm mb-4">
           <div className="text-black rounded-lg py-1">s<br />24</div>
           <div className="text-black rounded-lg py-1">m<br />25</div>
